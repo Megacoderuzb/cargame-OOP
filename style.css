@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: green;
+  height: 100%;
+}
+.way {
+  width: 700px;
+  height: 123456789123456789rem;
+  background-color: darkgrey;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 5rem;
+  right: 5rem;
+}
+.animation {
+  animation: car linear 25s infinite both;
+}
+@keyframes car {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(10000px);
+  }
+}
+
+.line {
+  height: 123456789123456789rem;
+  width: -1px;
+  position: absolute;
+  bottom: 0;
+  left: 22rem;
+  right: 22rem;
+  border: 20px dashed white;
+}
+.car {
+  position: absolute;
+  top: 20rem;
+  left: 33rem;
+  /* right: 25rem; */
+  /* transform: scale(3); */
+}
+img {
+  /* background-color: aqua; */
+  width: 160px;
+  height: 360px;
+  /* transform: scale(0.5); */
+  border-radius: 30%;
+  border-top: 50%;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  right: 0rem;
+  z-index: 12;
+}
+
+::-webkit-scrollbar {
+  background-color: green;
+  width: 0px;
+}
+::-webkit-scrollbar-button {
+  display: none;
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+}
+.rul {
+  display: flex;
+  align-self: flex-end;
+  margin-left: 1rem;
+  justify-content: space-evenly;
+  width: 360px;
+  margin-top: 1rem;
+}
+.ss {
+  margin-top: 20%;
+}
+button {
+  width: 75px;
+  height: 40px;
+  padding: 0.1rem;
+}
+.btn {
+  width: 75px;
+  height: 30px;
+  padding: 0.1rem;
+}
+.turnleft {
+  transform: translateX(360px);
+}
+
+.d-flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.pa {
+  padding: 1rem 2rem;
+}
+.ma {
+  margin: 1rem 2rem;
+}
+.form {
+  width: 20%;
+}
+.form .btn {
+  margin: 0 auto;
+}
+.tablo {
+  position: fixed;
+  top: 22rem;
+  right: 10rem;
+  /* text-decoration: underline; */
+  text-transform: capitalize;
+  color: aliceblue;
+  font-size: 1.2rem;
+}
+.d-none {
+  display: none;
+}
+.benz {
+  position: fixed;
+  top: 4rem;
+  right: 10rem;
+}
+.petrol {
+  text-decoration: underline;
+  color: aliceblue;
+  font-size: 2rem;
+}
